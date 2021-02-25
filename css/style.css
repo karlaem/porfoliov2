@@ -294,17 +294,18 @@ body {
 }
 
 .homecontent {
-  background-image: url(imgs/compuwire.gif);
-  background-color: #FCFCFC;
   width: 100%;
   height: 100vh;
-  background-repeat: no-repeat;
-  background-size: 60% 60%;
-  background-position: bottom center;
   position: relative;
 }
 @media (min-width: 800px) {
   .homecontent {
+    background-image: url(imgs/compuwire.gif);
+    background-color: #FCFCFC;
+    background-repeat: no-repeat;
+    background-size: 60% 60%;
+    background-position: bottom center;
+    position: relative;
     background-size: 35% 50%;
     background-position: bottom right;
   }
@@ -322,8 +323,17 @@ body {
 }
 @media (max-width: 800px) {
   .homecontent .hometext {
-    top: 0px;
+    top: 50px;
     width: 100%;
+  }
+}
+.homecontent img {
+  display: none;
+  width: 100%;
+}
+@media (max-width: 800px) {
+  .homecontent img {
+    display: block;
   }
 }
 .homecontent h2 {

@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.fixedtop {
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
+}
+
+.top {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.margins {
+  width: 80%;
+  margin: 0 auto;
+}
+@media (max-width: 800px) {
+  .margins {
+    width: 95%;
+  }
+}
+@media (max-width: 1300px) {
+  .margins {
+    width: 90%;
+  }
+}
+
+/*menuToggle*/
+#menuToggle {
+  display: block;
+  position: relative;
+  top: 20px;
+  right: 0px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+  width: 100%;
+}
+@media (min-width: 800px) {
+  #menuToggle {
+    display: none;
+  }
+}
+
+#menuToggle a {
+  color: #130D6F;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  text-align: center;
+  font-size: 21px;
+  font-family: "geomanistregular";
+}
+
+#menuToggle a:hover {
+  color: #5E72EB;
+}
+
+#menuToggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -2px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+  -webkit-touch-callout: none;
+}
+
+#menuToggle span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #0D0745;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+}
+
+#menuToggle span:first-child {
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ span {
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #0D0745;
+}
+
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menuToggle input:checked ~ ul {
+  transform: none;
+}
+
+#menu {
+  position: absolute;
+  width: 120%;
+  margin: -100px 0 0 -40px;
+  padding: 20px;
+  padding-top: 125px;
+  background: #FEC195;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+#menu li {
+  padding: 10px 0;
+  font-size: 1em;
+}
+
+/*end menuToggle*/
+/*mobile logo*/
+.tinylogo img {
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+@media (min-width: 800px) {
+  .tinylogo img {
+    display: none;
+  }
+}
+
+/*logo*/
+.logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100px;
+}
+.logo h1 {
+  background: url("../imgs/logomorado.svg");
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  text-indent: -9999px;
+}
+.logo h1 a {
+  background-image: url("../imgs/logorosa.svg");
+  background-size: cover;
+}
+
+body {
+  position: relative;
+}
+
+.leftnav {
+  display: block;
+  background-color: #FEC195;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 10%;
+  height: 100vh;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: line;
+}
+@media (max-width: 800px) {
+  .leftnav {
+    display: none;
+  }
+}
+.leftnav .logo {
+  margin: 0 auto;
+  padding: 20px;
+}
+.leftnav .menuRegular {
+  position: absolute;
+  text-align: center;
+  font-size: 21px;
+  font-family: "Fjalla One", sans-serif;
+  top: 30%;
+  left: 25%;
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: line;
+}
+.leftnav .menuRegular a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 20px;
+}
+.leftnav .menuRegular a:hover {
+  color: #5E72EB;
+}
+.leftnav .menuRegular .active {
+  color: #5E72EB;
+}
+.leftnav .socialmedia {
+  position: absolute;
+  bottom: 20px;
+  padding: 20px;
+  left: 20%;
+  font-family: "geomanistregular";
+  transition-delay: 0s;
+  transition-duration: 0.4s;
+  transition-property: all;
+  transition-timing-function: line;
+}
+.leftnav .socialmedia svg {
+  padding: 5px;
+  width: 30px;
+}
+.leftnav .socialmedia svg:hover {
+  fill: #5E72EB;
+}
+.leftnav .socialmedia a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  display: inline;
+}
+.leftnav .socialmedia a:hover {
+  color: #5E72EB;
+}
+.leftnav .socialmedia .active {
+  color: #5E72EB;
+}
+
+.leftnav:hover {
+  width: 15%;
+}
+.leftnav:hover .menuRegular {
+  left: 35%;
+}
+.leftnav:hover .socialmedia {
+  left: 30%;
+}
+
+/*# sourceMappingURL=style.css.map */

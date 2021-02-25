@@ -1,0 +1,50 @@
+$desktop-width:800px;
+$phone-width:800px;
+
+@mixin desktop {
+    @media (min-width: $desktop-width) {
+    @content;
+    }
+}
+@mixin phone {
+    @media (max-width:$phone-width) {
+    @content;
+    }
+}
+@mixin ipad {
+    @media (max-width: 1300px ) {
+    @content;
+    }
+}
+
+
+//fonts
+$primaryfont: 'geomanistregular';
+$italicfont: 'geomanistitalic'; 
+$boldfont:  'geomanistbold';
+$lightfont: 'geomanistlight';
+$ultrafont: 'geomanistultra';
+
+// colors
+$morado:#0D0745;
+$azuloscuro:#130D6F;
+$azul:#5E72EB;
+$rosa:#FF9190;
+$naranja:#FEC195;
+$gris:#a3a3a3;
+
+$lightgrey:#EEEFF1;
+$patches:#2A3380;
+$patcheshover:#C97E09;
+$patchescolor:#2A3380;
+$scoop: #FFA8A7;
+$scoophover:#4AB0B2;
+$scoopcolor:#A47A53;
+$secret:#558EC5;
+$secrethover:#F8D996;
+$lila:#CDC9FC;
+$lilahover:#6D85B3;
+$thedress:#29E1B9;
+$thedresshover:#D82731;
+$dd:#128D82;
+$ddhover:#36B3AA;

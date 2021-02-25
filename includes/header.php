@@ -12,6 +12,8 @@
 
 <!--fonts-->
 <link rel="stylesheet" href="css/fonts/stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
 
 <!--favicon-->
 <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon/apple-touch-icon.png">

@@ -37,6 +37,24 @@
 .marginleft {
   margin-left: 15%;
 }
+@media (max-width: 1300px) {
+  .marginleft {
+    margin-left: 25%;
+  }
+}
+@media (max-width: 800px) {
+  .marginleft {
+    margin-left: 0px;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .phonetop {
+    margin-top: 50px;
+  }
+}
 
 /*menuToggle*/
 #menuToggle {
@@ -175,6 +193,7 @@
 
 body {
   position: relative;
+  background-color: #FCFCFC;
 }
 
 .leftnav {
@@ -190,9 +209,14 @@ body {
   transition-property: all;
   transition-timing-function: line;
 }
-@media (max-width: 1300px) {
+@media (max-width: 800px) {
   .leftnav {
     display: none;
+  }
+}
+@media (max-width: 1300px) {
+  .leftnav {
+    width: 20%;
   }
 }
 .leftnav .logo {
@@ -262,6 +286,89 @@ body {
 }
 .leftnav:hover .socialmedia {
   left: 30%;
+}
+@media (max-width: 1300px) {
+  .leftnav:hover {
+    width: 25%;
+  }
+}
+
+.homecontent {
+  background-image: url(imgs/compuwire.gif);
+  background-color: #FCFCFC;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 60% 60%;
+  background-position: bottom center;
+  position: relative;
+}
+@media (min-width: 800px) {
+  .homecontent {
+    background-size: 35% 50%;
+    background-position: bottom right;
+  }
+}
+.homecontent .hometext {
+  position: absolute;
+  width: 80%;
+  top: 20%;
+}
+@media (max-width: 1300px) {
+  .homecontent .hometext {
+    position: absolute;
+    top: 5%;
+  }
+}
+@media (max-width: 800px) {
+  .homecontent .hometext {
+    top: 0px;
+    width: 100%;
+  }
+}
+.homecontent h2 {
+  font-family: "geomanistregular";
+  font-size: 60px;
+}
+@media (max-width: 1300px) {
+  .homecontent h2 {
+    font-size: 36px;
+  }
+}
+.homecontent h1 {
+  font-family: "Fjalla One", sans-serif;
+}
+
+.cta {
+  font-size: 21px;
+  border: none;
+  padding: 10px 50px;
+  width: 300px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  background-size: 200%;
+  transition: 0.6s ease;
+  letter-spacing: 1px;
+  background-image: linear-gradient(to left, #FF9190, #0D0745, #FF9190);
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cta:hover {
+  background-position: right;
+}
+
+@media (max-width: 800px) {
+  .cta {
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

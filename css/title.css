@@ -1,28 +1,13 @@
+.homecontent{
+    position: relative;
+}
 .container {
-    transform: translate(-100%, -70%);
-    top: 0px;
-    left: 50%;
+    top: -130px;
+    left: 0px;
     display: block;
     position: absolute;
     display: block;
-}
-.button {
-    float: left;
-    position: relative;
-    bottom: -65px;
-    left: 50%;
-    transform: translateX(-50%) rotate(-10deg);
-    color: #e55643;
-    text-transform: uppercase;
-    opacity: 0;
-    visibility: hidden;
-    cursor: pointer;
-}
-.button span {
- 
-    display: block;
-    float: left;
-    text-shadow: #0D0745 1px 1px, #0D0745 2px 2px, #0D0745 3px 3px, #0D0745 4px 4px;
+    width: 700px;
 }
 .container h1 {
     color: #fff;
@@ -33,14 +18,11 @@
     letter-spacing: 2px;
 }
 .title {
-
     display: block;
     float: left;
-
     position: relative;
 }
 .title span {
- 
     display: block;
     float: left;
     text-shadow: #0D0745 1px 1px, #0D0745 2px 2px, #0D0745 3px 3px, #0D0745 4px 4px, #0D0745 5px 5px, #0D0745 6px 6px;
@@ -71,3 +53,5 @@
     font-family: 'Fjalla One', sans-serif;
 }
 }
+
+    

@@ -31,6 +31,7 @@ $titlefont:'Fjalla One', sans-serif;
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
 }
+
 .top{
   position: absolute;
   top:0px;
@@ -191,15 +192,9 @@ body{
   background-color: $blanco;
 }
 .leftnav{
-  @include phone{
-    display: none;
-  }
-  @include ipad{
-    width: 20%;
-  }
   display: block;
   background-color: $naranja;
-  position: absolute;
+  position: fixed;
   left: 0px;
   top: 0px;
   width: 10%;
@@ -209,6 +204,13 @@ body{
   transition-duration: 0.4s;
   transition-property: all;
   transition-timing-function: line;
+
+  @include phone{
+    display: none;
+  }
+  @include ipad{
+    width: 20%;
+  }
 
   .logo{
     margin: 0 auto;

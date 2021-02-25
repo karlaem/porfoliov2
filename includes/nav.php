@@ -40,6 +40,7 @@ $contactActive = (isset($contactActive)) ? $contactActive : "";
 </div>
 
 <!--main menu-->
+
 <div class="leftnav">
         <div class="nav">
             <!--optimized for seo, adding the logo h1 fist and the the nav-->
@@ -67,4 +68,5 @@ $contactActive = (isset($contactActive)) ? $contactActive : "";
                 </a>          
             </div>
         </div><!--.nav-->
-</div><!--.left-->
+
+</div>

@@ -43,12 +43,69 @@
 
             </div>
         </div>
-        <div id="contact" class="page marginleft">
+        <div id="contact" class="page marginleft phonetop">
             <div  class="content">
-                <h1>Contact</h1>
-            
-            </div>
-        </div>
+                <div class="bgcontact">
+                    <div class="contactform">
+                        <h1>Let's work together</h1>
+                        <h3>Send a message</h3>
+                        <p>If you want to collaborate feel very welcome to contact me. I am available for freelance and full time employment.</p>
+
+                        <div class="emailicon">
+                            <img src="imgs/email.svg" alt="message">
+                            <p>karlaest20@gmail.com</p>
+                        </div>
+
+                        <form id="contactform"  method="post" action="sendemail.php" enctype="multipart/form-data" name="EmailForm">
+                            <div class="fieldgroup required">
+                                <label for="fname">Your name</label>
+                                <input type="text" id="name" name="name" placeholder="Your name..">
+                                <div class="popup">   
+                                    <div class="arrow-up"></div>             
+                                    <p>Write your name</p>
+                                </div>   
+                            </div><!--.fieldgroup-->
+
+                            <div class="fieldgroup required">
+                                <label for="fname">Your email</label>
+                                <input type="text" id="email" name="email" placeholder="name@email.com">
+                                <div class="popup">         
+                                    <div class="arrow-up"></div>          
+                                    <p>Write your email</p>
+                                </div>   
+                            </div><!--.fieldgroup-->
+
+                            <div class="fieldgroup">
+                                <label for="subject">I want to...</label>
+                                <select name="subject">
+                                    <option value="knowMore">Know more information</option>
+                                    <option value="resume">Ask for resume</option>
+                                    <option value="hire">Hire me &#128516;</option>
+                                    <option value="tips">Tips on coding, art or design</option>
+                                    <option value="question">Questions</option>
+                                    <option value="chat">Platicar</option>
+                                </select>
+                                <div class="popup">  
+                                    <div class="arrow-up"></div>                
+                                    <p>Write your name</p>
+                                </div>   
+                            </div><!--.fieldgroup-->
+
+                            <div class="fieldgroup required">
+                                <label for="msg">Message</label>
+                                <textarea id="msg" name="msg" placeholder="Write something.."></textarea>
+                                <div class="popup">   
+                                    <div class="arrow-up"></div>               
+                                    <p>Write your Message</p>
+                                </div>  
+                            </div><!--.fieldgroup-->
+
+                            <input class="cta" type="submit" value="Send">
+                        </form>
+                    </div>
+                </div>
+            </div><!--content-->
+        </div><!--#contact-->
     </div>
 <?php
 // Navigation

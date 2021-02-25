@@ -34,6 +34,10 @@
   }
 }
 
+.marginleft {
+  margin-left: 15%;
+}
+
 /*menuToggle*/
 #menuToggle {
   display: block;
@@ -186,7 +190,7 @@ body {
   transition-property: all;
   transition-timing-function: line;
 }
-@media (max-width: 800px) {
+@media (max-width: 1300px) {
   .leftnav {
     display: none;
   }

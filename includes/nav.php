@@ -1,10 +1,10 @@
 <?php
 // array of navigation
 $arrMenu = array(
-    array('menu'=>'Home', 'link'=>'index.php'),
-    array('menu'=>'Work', 'link'=>'portfolio.php'),
-    array('menu'=>'About', 'link'=>'about.php'),
-    array('menu'=>'Contact', 'link'=>'contact.php'),
+    array('menu'=>'Home', 'link'=>'index.php', 'datanav' => 'home'),
+    array('menu'=>'Work', 'link'=>'portfolio.php', 'datanav' => 'work'),
+    array('menu'=>'About', 'link'=>'about.php', 'datanav' => 'about'),
+    array('menu'=>'Contact', 'link'=>'contact.php', 'datanav' => 'contact'),
 );
 // active
 $homeActive = (isset($homeActive)) ? $homeActive : "";
@@ -29,7 +29,7 @@ $contactActive = (isset($contactActive)) ? $contactActive : "";
                     //show regular menu
                     foreach ($arrMenu as $key => $nav) {
                     ?>
-                    <a href="<?=$nav["link"]?>"><li><?=$nav["menu"]?></li></a>
+                    <a data-nav=<?=$nav["datanav"]?>><li><?=$nav["menu"]?></li></a>
                     <?php
                     }
                     ?>
@@ -47,10 +47,12 @@ $contactActive = (isset($contactActive)) ? $contactActive : "";
                 <a href="index.php"><h1>Karla Mercado web developer digital animator and artist</h1></a>
             </div><!-- .logo -->
             <div class="menuRegular">
-                <a class="<?=$homeActive?>" href="index.php">Home</a>
-                <a class="<?=$workActive?>" href="portfolio.php">Work</a>
-                <a class="<?=$aboutActive?>" href="about.php">About</a>
-                <a class="<?=$contactActive?>" href="contact.php">Contact</a>
+                <div class="nav">
+                    <a href="#" data-nav="home">Home</a>
+                    <a href="#" data-nav="work">work</a>
+                    <a href="#" data-nav="about">about</a>
+                    <a href="#" data-nav="contact">contact</a>
+                </div>
             </div> 
 
             <div class="socialmedia">

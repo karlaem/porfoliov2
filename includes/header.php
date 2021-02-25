@@ -7,8 +7,6 @@
 
 <!--css-->
 <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/projects.css">
-<link rel="stylesheet" href="css/cases.css">
 
 <!--fonts-->
 <link rel="stylesheet" href="css/fonts/stylesheet.css" type="text/css" charset="utf-8" />

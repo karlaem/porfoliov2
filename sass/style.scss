@@ -17,7 +17,7 @@ $boldfont:  'geomanistbold';
 $lightfont: 'geomanistlight';
 $ultrafont: 'geomanistultra';
 
-$titlefont:'Fjalla One', sans-serif;
+$titlefont:'geomanistregular';
 
 *{
     box-sizing: border-box;
@@ -32,11 +32,7 @@ $titlefont:'Fjalla One', sans-serif;
     width: 100%; /* Full width */
 }
 
-.top{
-  position: absolute;
-  top:0px;
-  width: 100%;
-}
+
 
 .margins{
     width: 80%;
@@ -52,7 +48,9 @@ $titlefont:'Fjalla One', sans-serif;
 .marginleft{
   margin-left: 15%;
   @include ipad{
-    margin-left: 25%;
+    margin-left: 0px;
+    width: 90%;
+    margin: 0 auto;
   }
   @include phone{
     margin-left: 0px;
@@ -62,7 +60,7 @@ $titlefont:'Fjalla One', sans-serif;
 }
 .phonetop{
   @include phone{
-    margin-top: 20px;
+    margin-top: 40px;
   }
 }
 
@@ -78,6 +76,11 @@ $titlefont:'Fjalla One', sans-serif;
     width: 100%;
     @include desktop{
         display: none;
+    }
+    @include ipad{
+      display: block;
+      right: 15px;
+      width: 105%;
     }
   }
   #menuToggle a {
@@ -165,6 +168,9 @@ $titlefont:'Fjalla One', sans-serif;
   @include desktop{
     display: none;
   }
+  @include ipad{
+    display: block;
+  }
 }
 
 // left nav ***********************
@@ -199,17 +205,15 @@ body{
   top: 0px;
   width: 10%;
   height: 100vh;
+  letter-spacing: 2px;
 
   transition-delay: 0s;
   transition-duration: 0.4s;
   transition-property: all;
   transition-timing-function: line;
 
-  @include phone{
-    display: none;
-  }
   @include ipad{
-    width: 20%;
+    display: none;
   }
 
   .logo{
@@ -256,6 +260,7 @@ body{
     svg{
       padding: 5px;
       width: 30px;
+      fill:black;
     }
     svg:hover{
       fill: $azul;
@@ -282,9 +287,7 @@ body{
   .socialmedia{
     left: 30%;
   }
-  @include ipad{
-    width: 25%;
-  }
+
 }
 
 

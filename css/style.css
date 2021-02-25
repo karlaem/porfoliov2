@@ -13,12 +13,6 @@
   /* Full width */
 }
 
-.top {
-  position: absolute;
-  top: 0px;
-  width: 100%;
-}
-
 .margins {
   width: 80%;
   margin: 0 auto;
@@ -39,7 +33,9 @@
 }
 @media (max-width: 1300px) {
   .marginleft {
-    margin-left: 25%;
+    margin-left: 0px;
+    width: 90%;
+    margin: 0 auto;
   }
 }
 @media (max-width: 800px) {
@@ -52,7 +48,7 @@
 
 @media (max-width: 800px) {
   .phonetop {
-    margin-top: 20px;
+    margin-top: 40px;
   }
 }
 
@@ -70,6 +66,13 @@
 @media (min-width: 800px) {
   #menuToggle {
     display: none;
+  }
+}
+@media (max-width: 1300px) {
+  #menuToggle {
+    display: block;
+    right: 15px;
+    width: 105%;
   }
 }
 
@@ -171,6 +174,11 @@
     display: none;
   }
 }
+@media (max-width: 1300px) {
+  .tinylogo img {
+    display: block;
+  }
+}
 
 /*logo*/
 .logo {
@@ -204,19 +212,15 @@ body {
   top: 0px;
   width: 10%;
   height: 100vh;
+  letter-spacing: 2px;
   transition-delay: 0s;
   transition-duration: 0.4s;
   transition-property: all;
   transition-timing-function: line;
 }
-@media (max-width: 800px) {
-  .leftnav {
-    display: none;
-  }
-}
 @media (max-width: 1300px) {
   .leftnav {
-    width: 20%;
+    display: none;
   }
 }
 .leftnav .logo {
@@ -227,7 +231,7 @@ body {
   position: absolute;
   text-align: center;
   font-size: 21px;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "geomanistregular";
   top: 30%;
   left: 25%;
   transition-delay: 0s;
@@ -261,6 +265,7 @@ body {
 .leftnav .socialmedia svg {
   padding: 5px;
   width: 30px;
+  fill: black;
 }
 .leftnav .socialmedia svg:hover {
   fill: #5E72EB;
@@ -286,11 +291,6 @@ body {
 }
 .leftnav:hover .socialmedia {
   left: 30%;
-}
-@media (max-width: 1300px) {
-  .leftnav:hover {
-    width: 25%;
-  }
 }
 
 .homecontent {
@@ -358,7 +358,7 @@ body {
   }
 }
 .homecontent h1 {
-  font-family: "Fjalla One", sans-serif;
+  font-family: "geomanistregular";
 }
 
 .cta {

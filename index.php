@@ -12,6 +12,17 @@
 <div id="myWebApp" class="marginleft phonetop">
         <div id="home" class="page">
             <div  class="content">
+                <div class="msg">
+                    <?php
+                    //check error messages
+                    if (isset($_GET["error"])){                        
+                    echo '<div class="error"><h2>Something went wrong. Try Again</h2</div>';
+                    }
+                    if (isset($_GET["success"])){                        
+                    echo '<div class="success"><h2>Thank you your message was send</h2></div>';
+                    }
+                    ?>
+                </div>
                 <div class="homecontent">
                     <div class="hometext">
                         <section class="container hide">
@@ -21,7 +32,7 @@
                             </h1>
                         </section>
                         <h1 class="title2">Hello, I'm Karla Mercado</h1>
-                        <h2 class="center">I’m a creative front end developer looking to work at a small agency eager to bring projects to life through thoughtful design solutions.</h2>
+                        <h2 class="center">I’m a creative front-end developer looking to work at a small agency eager to bring projects to life through thoughtful design solutions.</h2>
                         <button href="#" data-nav="work" class="cta">See my work</button>
                         <img class="bighide" src="imgs/compuwire.gif" alt="computer image">
                     </div>
@@ -52,7 +63,7 @@
                         <p>If you want to collaborate feel very welcome to contact me. I am available for freelance and full time employment.</p>
 
                         <div class="emailicon">
-                            <img src="imgs/email.svg" alt="message">
+                        <svg id="Capa_19" data-name="Capa 19" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.1 16.73"><defs><style>.cls-1{fill:none;stroke-miterlimit:10;}.cls-1,.cls-2{stroke:#000;}.cls-2{fill:#fff;stroke-linecap:round;stroke-linejoin:round;}</style></defs><rect class="cls-1" x="0.5" y="0.5" width="30.1" height="15.73" rx="3.12"/><polyline class="cls-2" points="1.46 1.45 15.72 7.86 29.64 1.45"/></svg>
                             <p>karlaest20@gmail.com</p>
                         </div>
 
@@ -102,6 +113,7 @@
 
                             <input class="cta" type="submit" value="Send">
                         </form>
+                        <img class="bighide" src="imgs/logowiggle.gif" alt="karla mercado logo animation">
                     </div>
                 </div>
             </div><!--content-->
@@ -114,5 +126,6 @@ include("includes/nav.php");
 ?>   
 
 <script type="module" src="js/main.js"></script>
+<script type="module" src="js/validate.js"></script>
 </body>
 </html>

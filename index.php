@@ -14,8 +14,14 @@
             <div  class="content">
                 <div class="homecontent">
                     <div class="hometext">
-                        <h1>Hello, I'm Karla Mercado</h1>
-                        <h2>I’m a creative front end developer looking to work at a small agency eager to bring projects to life through thoughtful design solutions.</h2>
+                        <section class="container hide">
+                            <h1>
+                            <span class="title">Hello! I am</span>
+                            <span class="title">Karla Mercado</span>
+                            </h1>
+                        </section>
+                        <h1 class="title2">Hello, I'm Karla Mercado</h1>
+                        <h2 class="center">I’m a creative front end developer looking to work at a small agency eager to bring projects to life through thoughtful design solutions.</h2>
                     
                         <button href="#" data-nav="work" class="cta">See my work</button>
                     </div>

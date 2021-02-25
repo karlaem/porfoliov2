@@ -1,0 +1,73 @@
+.container {
+    transform: translate(-100%, -70%);
+    top: 0px;
+    left: 50%;
+    display: block;
+    position: absolute;
+
+    display: block;
+}
+.button {
+    float: left;
+    position: relative;
+    bottom: -65px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-10deg);
+    color: #e55643;
+    text-transform: uppercase;
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+}
+.button span {
+ 
+    display: block;
+    float: left;
+    text-shadow: #0D0745 1px 1px, #0D0745 2px 2px, #0D0745 3px 3px, #0D0745 4px 4px;
+}
+.container h1 {
+    color: #fff;
+   
+    font-size: 74px;
+    margin: 0;
+    line-height:110px;
+    letter-spacing: 2px;
+}
+.title {
+
+    display: block;
+    float: left;
+
+    position: relative;
+}
+.title span {
+ 
+    display: block;
+    float: left;
+    text-shadow: #0D0745 1px 1px, #0D0745 2px 2px, #0D0745 3px 3px, #0D0745 4px 4px, #0D0745 5px 5px, #0D0745 6px 6px;
+    min-width: 10px;
+    min-height: 10px;
+    position: relative;
+}
+.title:nth-child(1) {
+    color: #FF9190;
+}
+.title:nth-child(2) {
+    color: #5E72EB;
+}
+.title:nth-child(3) {
+    color: #FEC195;
+}
+.title2{
+    margin-top: 100px;
+    display: none;
+}
+@media (max-width: 1300px) {
+.container{
+    display: none;
+}
+.title2{
+    display: block;
+    margin-top: 0px;
+}
+}

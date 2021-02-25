@@ -7,6 +7,7 @@
 
 <!--css-->
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/title.css">
 
 <!--fonts-->
 <link rel="stylesheet" href="css/fonts/stylesheet.css" type="text/css" charset="utf-8" />
@@ -21,3 +22,13 @@
 <link rel="mask-icon" href="imgs/favicon/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
+
+<!--jquery-->
+<script src="jquery-3.5.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script> 
+
+<!--title animation-->
+<script src="js/title.js"></script>

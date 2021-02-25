@@ -4,7 +4,6 @@
     left: 50%;
     display: block;
     position: absolute;
-
     display: block;
 }
 .button {
@@ -69,5 +68,6 @@
 .title2{
     display: block;
     margin-top: 0px;
+    font-family: 'Fjalla One', sans-serif;
 }
 }

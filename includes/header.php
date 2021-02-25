@@ -8,6 +8,7 @@
 <!--css-->
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/title.css">
+<link rel="stylesheet" href="css/soon.css">
 
 <!--fonts-->
 <link rel="stylesheet" href="css/fonts/stylesheet.css" type="text/css" charset="utf-8" />

@@ -12,9 +12,19 @@
 
 <div id="myWebApp" class="marginleft phonetop">
         <div id="project" class="page">
-            <div  class="content">
-                <h1>Project one</h1>
-            
+        <div class="comingsoon">
+
+            <div  class="content">                
+         
+                    <section class="container hide">
+                        <h1>
+                        <span class="title">Coming</span>
+                        <span class="title"> soon...</span>
+                        </h1>
+                        
+                    </section>
+                    <h1 class="title2">Coming soon...</h1>
+                </div>
             </div>
         </div>
 </div>

@@ -15,7 +15,7 @@
                 <div class="homecontent">
                     <div class="hometext">
                         <section class="container hide">
-                            <h1>
+                            <h1 class="name">
                             <span class="title">Hello, I am</span>
                             <span class="title">Karla Mercado</span>
                             </h1>

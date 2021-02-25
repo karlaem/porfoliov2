@@ -379,3 +379,14 @@ a{
   }
 }
 
+// page not found
+.notfound{
+  padding-top: 50px;
+  width: 50%;
+  img{
+    width: 100%;
+  }
+  h1{
+    font-family: $primaryfont;
+  }
+}

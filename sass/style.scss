@@ -173,7 +173,7 @@ body{
   position: relative;
 }
 .leftnav{
-  @include phone{
+  @include ipad{
     display: none;
   }
   display: block;

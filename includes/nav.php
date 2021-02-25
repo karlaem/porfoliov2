@@ -15,6 +15,7 @@ $contactActive = (isset($contactActive)) ? $contactActive : "";
 
 <!--responsive menu-->
 <div class="fixedtop">
+    <div class="margins">
         <nav role="navigation">
             <a href="index.php" class="tinylogo"><img src="imgs/logomorado.svg" alt="Karla Mercado Portfolio Logo"></a>
             <div id="menuToggle">

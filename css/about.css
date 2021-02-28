@@ -43,6 +43,11 @@
   margin-bottom: 20px;
   margin-left: 20px;
 }
+@media (min-width: 800px) {
+  .process {
+    margin-top: 50px;
+  }
+}
 
 .center2 {
   text-align: center;
@@ -64,6 +69,7 @@
 }
 @media (min-width: 800px) {
   .skillcontainer {
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;

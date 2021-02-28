@@ -1,0 +1,23 @@
+.workcontent {
+  width: 90%;
+  margin-top: 50px;
+  font-family: "geomanistregular";
+}
+.workcontent h1 {
+  margin-bottom: 20px;
+}
+.workcontent img {
+  width: 100%;
+}
+.workcontent .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  column-gap: 20px;
+  row-gap: 40px;
+}
+.workcontent a {
+  text-decoration: none;
+  color: black;
+}
+
+/*# sourceMappingURL=work.css.map */

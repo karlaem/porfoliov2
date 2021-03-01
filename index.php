@@ -55,10 +55,10 @@
                             <h3>Ice cream company branding, logo, social media & stickers design</h3>
                         </div>
                     </a><!--.scoop-->
-                    <a href="project.php">
+                    <a href="secret.php">
                         <div class='card'>
                             <img src="imgs/secretg.jpg" alt="Secret menu website and responsive app">
-                            <h3>Secret menu website and responsive app</h3>
+                            <h3>Secret menu website and responsive app development</h3>
                         </div>
                     </a><!--.secret-->
                     <a href="project.php">
@@ -146,11 +146,6 @@
                             <li>Create a product that will make us proud.</li>
                         </ol>
                     </div>
-                </div>
-              
-                <div class="containercenter noleft">
-                    <h2 class="center2">You want to add creativity to your project, start something new, make more money. Cool!</h2>
-                    <button href="#" data-nav="contact" class="cta">Start a project</button>
                 </div>
             </div>
         </div><!--.aboutcontent-->

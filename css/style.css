@@ -306,11 +306,6 @@ html {
   left: 30%;
 }
 
-.content {
-  background-color: #FCFCFC;
-  overflow: auto;
-}
-
 .homecontent {
   width: 100%;
   height: 100vh;

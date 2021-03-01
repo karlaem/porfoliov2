@@ -136,12 +136,12 @@
                         <h3>Ice cream company branding, logo, social media & stickers design</h3>
                     </div>
                 </a><!--.scoop-->
-                <a href="project.php">
-                            <div class='card'>
-                                <img src="imgs/secretg.jpg" alt="Secret menu website and responsive app">
-                                <h3>Secret menu website and responsive app</h3>
-                            </div>
-                        </a><!--.secret-->
+                <a href="secret.php">
+                    <div class='card'>
+                        <img src="imgs/secretg.jpg" alt="Secret menu website and responsive app">
+                        <h3>Secret menu website and responsive app</h3>
+                    </div>
+                </a><!--.secret-->
             </div><!--.cards-->
         </div><!--.more-->
     </div><!--.content-->

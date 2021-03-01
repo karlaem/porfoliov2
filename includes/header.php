@@ -14,6 +14,7 @@
 <link rel="stylesheet" href="css/work.css">
 <link rel="stylesheet" href="css/patches.css">
 <link rel="stylesheet" href="css/scoop.css">
+<link rel="stylesheet" href="css/secret.css">
 
 
 <!--fonts-->
@@ -39,3 +40,4 @@
 
 <!--title animation-->
 <script src="js/title.js"></script>
+

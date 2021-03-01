@@ -41,14 +41,34 @@
 .process {
   margin-bottom: 20px;
 }
+.process h2 {
+  margin-bottom: 10px;
+}
 .process li {
+  margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 @media (min-width: 1300px) {
   .process {
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
   }
+}
+.process .limage {
+  float: right;
+  width: 25%;
+}
+.process .limage img {
+  width: 100%;
+}
+@media (max-width: 800px) {
+  .process .limage {
+    width: 100%;
+  }
+}
+.process .rimage {
+  padding-top: 20px;
 }
 
 .center2 {
@@ -67,9 +87,24 @@
 }
 .skillcontainer li {
   list-style: none;
-  padding: 5px;
+  padding-top: 10px;
 }
 @media (min-width: 1300px) {
+  .skillcontainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  .skillcontainer h3 {
+    margin-bottom: 10px;
+  }
+  .skillcontainer ul {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1300px) and (min-width: 800px) {
   .skillcontainer {
     margin-top: 20px;
     display: flex;
@@ -96,6 +131,10 @@
     width: 60%;
     margin-top: 20px;
   }
+}
+
+.noleft {
+  clear: both;
 }
 
 .resume {

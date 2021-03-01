@@ -92,12 +92,12 @@
                 <h3 class="center">Fonts</h3>
                 <div class="fontcontainer">
                     <div class="font">
-                    <h1>Unica one</h1>
-                    <p> I choose this font for its readbility and simplicity, it also reminds me of space and science related fonts.</p>
+                    <h1 class="unica">Unica one</h1>
+                    <p class="crimson"> I choose this font for its readbility and simplicity, it also reminds me of space and science related fonts.</p>
                     </div>
                     <div class="font">
-                    <h1>Crimson text</h1>
-                    <p>I choose this foont because of the tradition of beautiful oldstyle typefaces. I think it would connect well with the handmade and high quality of my products.</p>
+                    <h1 class="unica">Crimson text</h1>
+                    <p class="crimson">I choose this foont because of the tradition of beautiful oldstyle typefaces. I think it would connect well with the handmade and high quality of my products.</p>
                     </div>
                 </div>
             </div><!--.fonts--> 
@@ -130,7 +130,7 @@
         <div class="more marbottom">
             <h2 class="center  marbottom">See more projects</h2>
             <div class="cards">
-                <a href="project.php">
+                <a href="scoop.php">
                     <div class='card'>
                         <img src="imgs/scoopg.jpg" alt="Ice cream company branding">
                         <h3>Ice cream company branding, logo, social media & stickers design</h3>

@@ -67,11 +67,22 @@ img{
             }
         }
     }
+    @include desktop{
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+.casecolors{
+    @include desktop{
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
 }
 .colors{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-top: 20px;
     .color{
         padding: 10px;
         p{
@@ -161,6 +172,11 @@ img{
     iframe{
         width: 100%;
     }
+    @include desktop{
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+    
 }
 .summary .resume{
     a{
@@ -185,6 +201,10 @@ img{
     
     @include phone{
         grid-template-columns: 1fr;
+    }
+    @include desktop{
+        padding-top: 50px;
+        margin-bottom: 50px;
     }
 }
 .casefonts{
@@ -211,6 +231,10 @@ img{
             grid-template-columns: 1fr;
         }
     }
+    @include desktop{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 .more h2{
     padding: 15px;
@@ -219,4 +243,10 @@ img{
 }
 .casesocial{
     padding-top: 20px;
+    @include desktop{
+        margin-bottom: 50px;
+        p{
+            margin-bottom: 50px;
+        }
+    }
 }

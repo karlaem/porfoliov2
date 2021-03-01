@@ -5,8 +5,7 @@
     // links
     include("includes/header.php");
     ?>
-    
-    <title>Document</title>
+    <title>Coming soon</title>
 </head>
 <body>
 
@@ -27,8 +26,7 @@
                 </div>
             </div>
         </div>
-</div>
-    
+</div> 
 <?php
 // Navigation
 $homeActive = "active";

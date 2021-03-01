@@ -9,15 +9,19 @@
 .workcontent img {
   width: 100%;
 }
-.workcontent .cards {
+
+.cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   column-gap: 20px;
   row-gap: 40px;
 }
-.workcontent a {
+.cards a {
   text-decoration: none;
   color: black;
+}
+.cards h3 {
+  font-family: "geomanistlight";
 }
 
 /*# sourceMappingURL=work.css.map */

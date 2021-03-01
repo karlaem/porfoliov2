@@ -49,7 +49,7 @@ $contactActive = (isset($contactActive)) ? $contactActive : "";
             <div class="menuRegular">
                 <div class="nav">
                     <a href="index.php" data-nav="home">Home</a>
-                    <a href="index.php" data-nav="work">Work</a>
+                    <a href="index.php#work" data-nav="work">Work</a>
                     <a href="index.php" data-nav="about">About</a>
                     <a href="index.php" data-nav="contact">Contact</a>
                 </div>
@@ -68,3 +68,14 @@ $contactActive = (isset($contactActive)) ? $contactActive : "";
             </div>
         </div><!--.nav-->
 </div><!--.left-->
+
+<div class="margins">
+    <div class="ipadnav">
+        <div class="menuipad">
+            <a href="index.php" data-nav="home">Home</a>
+            <a href="index.php"  data-nav="work">Work</a>
+            <a href="index.php"  data-nav="about">About</a>
+            <a href="index.php"  data-nav="contact">Contact</a>
+        </div> 
+    </div>
+</div>

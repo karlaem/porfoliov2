@@ -2,7 +2,7 @@ $desktop-width:800px;
 $phone-width:800px;
 
 @mixin desktop {
-    @media (min-width: $desktop-width) {
+    @media (min-width: 1300px) {
     @content;
     }
 }
@@ -12,7 +12,7 @@ $phone-width:800px;
     }
 }
 @mixin ipad {
-    @media (max-width: 1300px ) {
+    @media (max-width: 1300px) and (min-width: 800px)  {
     @content;
     }
 }
@@ -25,6 +25,7 @@ $boldfont:  'geomanistbold';
 $lightfont: 'geomanistlight';
 $ultrafont: 'geomanistultra';
 $titlefont:'geomanistregular';
+
 // colors
 $morado:#0D0745;
 $azuloscuro:#130D6F;
@@ -38,6 +39,11 @@ $lightgrey:#EEEFF1;
 $patches:#2A3380;
 $patcheshover:#C97E09;
 $patchescolor:#2A3380;
+$patchesground:#C5AB8F;
+$patchespath:#E9DFD4;
+$patcheswhite:#F9F9FF;
+$patcheswind:#EDEFF1;
+$patchesair:#EBEAE3;
 $scoop: #FFA8A7;
 $scoophover:#4AB0B2;
 $scoopcolor:#A47A53;

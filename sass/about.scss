@@ -12,13 +12,15 @@
         margin-bottom: 20px;
     }
     h2{
-        margin-bottom: 20px;
         letter-spacing: 2px;
     }
     svg{
         fill: $azul;
         stroke: $azul;
         width: 15px;
+    }
+    svg:hover{
+        stroke: $rosa;
     }
     .download{
         text-decoration: none;
@@ -62,13 +64,13 @@
         padding: 5px;
     }
     @include desktop{
-        margin-top: 50px;
+        margin-top: 20px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         margin-bottom: 20px;
         h3{
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
         ul{
             margin-bottom: 20px;
@@ -79,8 +81,20 @@
     width: 90%;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 20px;
     @include desktop{
         width: 60%;
-        margin-top: 50px;
+        margin-top: 20px;
+    }
+}
+.resume{
+    margin-bottom: 20px;
+    svg{
+        fill: white;
+        stroke: $azul;
+        width: 15px;
+    }
+    svg:hover{
+        stroke: $rosa;
     }
 }

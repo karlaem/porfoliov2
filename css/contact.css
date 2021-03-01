@@ -13,6 +13,11 @@
     padding-top: 100px;
   }
 }
+@media (max-width: 1300px) and (min-width: 800px) {
+  .contactform {
+    padding-top: 50px;
+  }
+}
 
 .emailicon {
   margin-bottom: 20px;

@@ -12,7 +12,16 @@
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 }
-
+body{
+  position: relative;
+  background-color: $blanco;
+}
+html{
+  background-color: $blanco;
+}
+#myWebApp{
+  background-color: $blanco;
+}
 .margins{
   width: 80%;
   margin: 0 auto;
@@ -166,13 +175,6 @@
     background-size: cover;
   }
 }
-body{
-  position: relative;
-  background-color: $blanco;
-}
-html{
-  background-color: $blanco;
-}
 .leftnav{
   display: block;
   background-color: $naranja;
@@ -261,6 +263,10 @@ html{
   .socialmedia{
     left: 30%;
   }
+}
+.content{
+  background-color: $blanco;
+  overflow: auto;
 }
 // home *************
 .homecontent{

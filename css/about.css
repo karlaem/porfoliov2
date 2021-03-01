@@ -33,6 +33,11 @@
     width: 90%;
   }
 }
+@media (max-width: 1300px) and (min-width: 800px) {
+  .aboutcontent {
+    padding-top: 20px;
+  }
+}
 
 .resume {
   margin-bottom: 20px;

@@ -13,6 +13,19 @@
   /* Full width */
 }
 
+body {
+  position: relative;
+  background-color: #FCFCFC;
+}
+
+html {
+  background-color: #FCFCFC;
+}
+
+#myWebApp {
+  background-color: #FCFCFC;
+}
+
 .margins {
   width: 80%;
   margin: 0 auto;
@@ -198,15 +211,6 @@
   background-size: cover;
 }
 
-body {
-  position: relative;
-  background-color: #FCFCFC;
-}
-
-html {
-  background-color: #FCFCFC;
-}
-
 .leftnav {
   display: block;
   background-color: #FEC195;
@@ -300,6 +304,11 @@ html {
 }
 .leftnav:hover .socialmedia {
   left: 30%;
+}
+
+.content {
+  background-color: #FCFCFC;
+  overflow: auto;
 }
 
 .homecontent {

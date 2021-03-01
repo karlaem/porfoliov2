@@ -12,6 +12,9 @@
         margin-top: 0px;
         padding-top: 100px;
     }
+    @include ipad{
+      padding-top: 50px;
+    }
 }
 .emailicon{
     margin-bottom: 20px;

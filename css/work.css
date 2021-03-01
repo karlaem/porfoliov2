@@ -9,6 +9,11 @@
 .workcontent img {
   width: 100%;
 }
+@media (max-width: 1300px) and (min-width: 800px) {
+  .workcontent {
+    padding-top: 20px;
+  }
+}
 
 .cards {
   display: grid;

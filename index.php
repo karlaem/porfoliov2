@@ -31,7 +31,7 @@
                         </h1>
                     </section>
                     <h1 class="title2">Hello, I'm Karla Mercado</h1>
-                    <h2 class="center">I’m a creative front-end developer looking to work at an agency and eager to bring projects to life through thoughtful design solutions.</h2>
+                    <h2 class="center3">I’m a creative front-end developer looking to work at an agency and eager to bring projects to life through thoughtful design solutions.</h2>
                     <button href="#" data-nav="work" class="cta">See my work</button>
                     <img class="bighide" src="imgs/compuwire.gif" alt="computer image">
                 </div><!--.hometext-->

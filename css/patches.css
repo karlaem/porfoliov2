@@ -67,7 +67,12 @@ img {
 }
 .caseproducts .product img {
   margin: 20px;
-  width: 350px;
+  width: 400px;
+}
+@media (max-width: 800px) {
+  .caseproducts .product img {
+    width: 300px;
+  }
 }
 
 .colors {

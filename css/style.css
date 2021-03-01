@@ -161,7 +161,6 @@
   font-size: 1em;
 }
 
-/*end menuToggle*/
 /*mobile logo*/
 .tinylogo img {
   width: 30px;
@@ -375,13 +374,13 @@ body {
   }
 }
 @media (min-width: 1300px) {
-  .homecontent .center {
+  .homecontent .center3 {
     margin-top: 80px;
     margin-bottom: 20px;
   }
 }
 @media (max-width: 1300px) and (min-width: 800px) {
-  .homecontent .center {
+  .homecontent .center3 {
     margin-top: 10px;
     margin-bottom: 10px;
   }
@@ -403,6 +402,7 @@ body {
   letter-spacing: 1px;
   background-image: linear-gradient(to left, #FF9190, #0D0745, #FF9190);
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 a {

@@ -61,7 +61,10 @@ img{
         flex-wrap: wrap;
         img{
             margin: 20px;
-            width: 350px;
+            width: 400px;
+            @include phone{
+                width: 300px;
+            }
         }
     }
 }

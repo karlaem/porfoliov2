@@ -5,7 +5,7 @@
     // links
     include("includes/header.php");
     ?>
-    <title>Patches ecommerce design and development</title>
+    <title>Whats the scoop design</title>
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@700&family=Oxygen&display=swap" rel="stylesheet">
@@ -91,8 +91,15 @@
                 <img src="imgs/scoop/icecream.jpg" alt="final packaging">
             </div><!--.casespack--> 
             <div class="casesocial marbottom">
-                <h3>Social Media Kit</h3>
-                <img src="imgs/scoop/social.jpg" alt="social media kit">
+                <h3>Social Media</h3>
+                    <div class="col2">
+                        <div class= "col">
+                            <img src="imgs/scoop/ig-1.png" alt="scoop social media">
+                        </div>
+                        <div class= "col">
+                            <img src="imgs/scoop/sns-2.png" alt="scoop social media">
+                        </div>
+                    </div><!--.col2-->
             </div><!--.casesocial-->    
             <div class="casesticker marbottom">
                 <h3>Stickers</h3>
@@ -103,6 +110,11 @@
                     <img src="imgs/scoop/sticker5.jpg" alt="stickers mockup">
                 </div>
                 <img src="imgs/scoop/sticker2.jpg" alt="stickers ready for print">
+                <div class="col3">
+                    <img src="imgs/scoop/pink-scoop.png" alt="stickers mockup">
+                    <img src="imgs/scoop/blue-scoop.png" alt="stickers mockup">
+                    <img src="imgs/scoop/green-scoop.png" alt="stickers mockup">
+                </div>
             </div><!--.casesticker-->   
         </div><!--.features-->   
         <div class="more marbottom">

@@ -61,13 +61,13 @@
                             <h3>Secret menu website and responsive app development</h3>
                         </div>
                     </a><!--.secret-->
-                    <a href="project.php">
+                    <a href="dress.php">
                         <div class='card'>
                             <img src="imgs/dress.jpg" alt="The dress ecomerce landing page design and branding">
                             <h3>The dress ecomerce landing page design and branding</h3>
                         </div>
                     </a><!--.dress-->
-                    <a href="project.php">
+                    <a href="diverse.php">
                         <div class='card'>
                             <img src="imgs/diverse.jpg" alt="Diverse dialogue, a blog site and portfolio for a broadcaster">
                             <h3>Diverse dialogue, a blog site and portfolio for a broadcaster.</h3>

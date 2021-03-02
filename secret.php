@@ -5,7 +5,7 @@
     // links
     include("includes/header.php");
     ?>
-    <title>Patches ecommerce design and development</title>
+    <title>Secret menu design and development</title>
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -110,7 +110,7 @@
                         <h3>Ice cream company branding, logo, social media & stickers design</h3>
                     </div>
                 </a><!--.scoop-->
-                <a href="project.php">
+                <a href="dress.php">
                     <div class='card'>
                         <img src="imgs/dress.jpg" alt="The dress ecomerce landing page design and branding">
                         <h3>The dress ecomerce landing page design and branding</h3>

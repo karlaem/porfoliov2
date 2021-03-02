@@ -1,47 +1,78 @@
-// sass --watch sass/secret.scss:css/secret.css
+// sass --watch sass/dress.scss:css/dress.css
 @import 'mixins';
 
-
-.caselogo3{
-    background-color:$secrethover;
+.caselogo4{
+    background-color:$thedressblack;
     width: 100%;
     height: 100%;
     text-align: center;
     margin-bottom: 20px;
     padding: 20px;
+    color: white;
     img{
         margin: 0 auto;
-        width: 300px;
-        margin-top: 20px;
+        width: 200px;
+        margin:20px;
         @include phone{
-            width: 100%;
+            width: 80%;
+            padding: 20px;
         }
     }
 }
 .colors{ 
-    #secretblack{
-        .circle{
-            background: $secretblack;
+    #thedresswhite{
+        .square{
+            background: $thedresswhite;
         }
-        color: $secretblack;
+        color: $thedressblack;
     }
-    #secrethover{
-        .circle{
-            background: $secrethover;
+    #thedressyellow{
+        .square{
+            background: $thedressyellow;
         }
-        color: $secrethover;
+        color: $thedressyellow;
     }
-    #secretpurple{
-        .circle{
-            background: $secretpurple;
+    #thedress{
+        .square{
+            background: $thedress;
         }
-        color: $secretpurple;
+        color: $thedress;
     }
-    #secret{
-        .circle{
-            background: $secret;
+    #thedressgreen{
+        .square{
+            background: $thedressgreen;
         }
-        color: $secret;
+        color: $thedressgreen;
+    }
+    #thedressmagenta{
+        .square{
+            background: $thedressmagenta;
+        }
+        color: $thedressmagenta;
+    }
+    #thedressred{
+        .square{
+            background: $thedresshover;
+        }
+        color: $thedresshover;
+    }
+    #thedressblue{
+        .square{
+            background: $thedressblue;
+        }
+        color: $thedressblue;
+    }
+    #thedresspurple{
+        .square{
+            background: $thedresspurple;
+        }
+        color: $thedresspurple;
+    }
+    #thedressblack{
+        .square{
+            background: $thedressblack;
+        }
+        color: $thedressblack;
     }
 }
 .intro{
@@ -72,14 +103,13 @@
         }
     }
 }
-.casefonts3{
-    text-align: center;
+.casefonts4{
     h3{
         background-color: $secrethover;
         padding: 10px;
     }
-    .montserrat{
-        font-family: 'Montserrat', sans-serif;
+    .oswald{
+        font-family: 'Oswald', sans-serif;
     }
     .fontcontainer{
         margin-top: 20px;

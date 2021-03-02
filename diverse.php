@@ -93,7 +93,7 @@
                         <h3>The dress ecomerce landing page design and branding</h3>
                     </div>
                 </a><!--.dress-->
-                <a href="project.php">
+                <a href="lila.php">
                     <div class='card'>
                         <img src="imgs/lilag.jpg" alt="DJ Lila a music portfolio design and development">
                         <h3>DJ Lila a music portfolio design and development</h3>

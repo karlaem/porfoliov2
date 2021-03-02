@@ -73,7 +73,7 @@
                             <h3>Diverse dialogue, a blog site and portfolio for a broadcaster.</h3>
                         </div>
                     </a><!--.diverse-->
-                    <a href="project.php">
+                    <a href="lila.php">
                         <div class='card'>
                             <img src="imgs/lilag.jpg" alt="DJ Lila a music portfolio design and development">
                             <h3>DJ Lila a music portfolio design and development</h3>

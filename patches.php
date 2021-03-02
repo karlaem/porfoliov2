@@ -130,18 +130,18 @@
         <div class="more marbottom">
             <h2 class="center  marbottom">See more projects</h2>
             <div class="cards">
+            <a href="lila.php">
+                    <div class='card'>
+                        <img src="imgs/lilag.jpg" alt="DJ Lila a music portfolio design and development">
+                        <h3>DJ Lila a music portfolio design and development</h3>
+                    </div>
+                </a><!--.lila-->
                 <a href="scoop.php">
                     <div class='card'>
                         <img src="imgs/scoopg.jpg" alt="Ice cream company branding">
                         <h3>Ice cream company branding, logo, social media & stickers design</h3>
                     </div>
                 </a><!--.scoop-->
-                <a href="secret.php">
-                    <div class='card'>
-                        <img src="imgs/secretg.jpg" alt="Secret menu website and responsive app">
-                        <h3>Secret menu website and responsive app</h3>
-                    </div>
-                </a><!--.secret-->
             </div><!--.cards-->
         </div><!--.more-->
     </div><!--.content-->

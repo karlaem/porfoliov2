@@ -121,11 +121,11 @@
             <h2 class="center  marbottom">See more projects</h2>
             <div class="cards">
                 <a href="patches.php">
-                        <div class='card'>
-                            <img src="imgs/camino.jpg" alt="Patches ecommerce design and development">
-                            <h3>Patches ecommerce design and development</h3>
-                        </div>
-                    </a><!--.patches-->
+                    <div class='card'>
+                        <img src="imgs/camino.jpg" alt="Patches ecommerce design and development">
+                        <h3>Patches ecommerce design and development</h3>
+                    </div>
+                </a><!--.patches-->
                 <a href="secret.php">
                     <div class='card'>
                         <img src="imgs/secretg.jpg" alt="Secret menu website and responsive app">

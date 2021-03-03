@@ -136,7 +136,7 @@
                 </div>
                 <div class="process">
                     <div class="limage">
-                        <img src="imgs/logowiggle.gif" alt="my logo">
+                        <img src="imgs/coffee.gif" alt="coffee">
                     </div>
                     <div class="rimage">
                         <h2>My process</h2>

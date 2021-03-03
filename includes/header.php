@@ -44,3 +44,14 @@
 <!--title animation-->
 <script src="js/title.js"></script>
 
+<!--google analytics-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-P84GGEBBBM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-P84GGEBBBM');
+</script>
+

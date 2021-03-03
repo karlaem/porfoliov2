@@ -51,7 +51,7 @@
         margin-left: 15px;
     }
     @include desktop{
-        margin-top: 20px;
+        margin-top: 100px;
         margin-bottom: 40px;
     }
     .limage{
@@ -85,7 +85,7 @@
         padding-top: 10px;
     }
     @include desktop{
-        margin-top: 20px;
+        margin-top: 40px;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;

@@ -40,7 +40,15 @@
             <div class="caselogo3">
                     <h3>Logo</h3>
                     <p class="marbottom">Logo is here to find secrets, he is specially interested in food.</p>
-                    <img src="imgs/secret/secretlogo.svg" alt="secret secret secret logo">
+                    <div class="logito">
+                        <div class="eye eye1">
+                            <div class="pupil"></div>
+                        </div>
+                        <div class="eye eye2">
+                            <div class="pupil"></div>
+                        </div>
+                    </div>
+                    <!--<img src="imgs/secret/secretlogo.svg" alt="secret secret secret logo">-->
                 </div><!--.caselogo-->
             <div class="casecolors marbottom center">
                 <h3>Colors</h3>
@@ -125,6 +133,7 @@
 // Navigation
 $homeActive = "active";
 include("includes/navlink.php");
-?>   
+?>  
+ <script src="js/eyes.js"></script> 
 </body>
 </html>

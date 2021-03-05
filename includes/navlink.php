@@ -29,7 +29,7 @@ $contactActive = (isset($contactActive)) ? $contactActive : "";
                     //show regular menu
                     foreach ($arrMenu as $key => $nav) {
                     ?>
-                    <a href="index.php" data-nav=<?=$nav["datanav"]?>><li><?=$nav["menu"]?></li></a>
+                   <a href="<?=$nav["link"]?>"><li><?=$nav["menu"]?></li></a>
                     <?php
                     }
                     ?>
@@ -49,9 +49,9 @@ $contactActive = (isset($contactActive)) ? $contactActive : "";
             <div class="menuRegular">
                 <div class="nav">
                     <a href="index.php" data-nav="home">Home</a>
-                    <a href="index.php" data-nav="work">Work</a>
-                    <a href="index.php" data-nav="about">About</a>
-                    <a href="index.php" data-nav="contact">Contact</a>
+                    <a href="work.php" data-nav="work">Work</a>
+                    <a href="about.php" data-nav="about">About</a>
+                    <a href="contact.php" data-nav="contact">Contact</a>
                 </div>
             </div> 
 
@@ -73,9 +73,9 @@ $contactActive = (isset($contactActive)) ? $contactActive : "";
     <div class="ipadnav">
         <div class="menuipad">
             <a href="index.php" data-nav="home">Home</a>
-            <a href="index.php"  data-nav="work">Work</a>
-            <a href="index.php"  data-nav="about">About</a>
-            <a href="index.php"  data-nav="contact">Contact</a>
+            <a href="work.php"  data-nav="work">Work</a>
+            <a href="about.php"  data-nav="about">About</a>
+            <a href="contact.php"  data-nav="contact">Contact</a>
         </div> 
     </div>
 </div>

@@ -50,7 +50,7 @@
                 </div><!--.caselogo-->
             <div class="casecolors marbottom center">
                 <h3>Colors</h3>
-                <p>I used bold colors and earth tones</p>
+                <p>I used teal color because it represents the uniqueness and creativity of Meriahza</p>
                 <div class="colors">
                     <div class="color" id="ddlight">
                         <div class="circle"></div>

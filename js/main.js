@@ -1,7 +1,7 @@
 import Router from './Router.js'
 
-const router = new Router("home");
+const router = new Router("work");
 
 router.onPageLoad(
-    "home",
+    "work",
 )

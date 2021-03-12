@@ -9,9 +9,14 @@
 </head>
 <body>  
     <div id="work" class="page marginleft phonetop">
+        <h1>My work</h1>
         <div class="content">
+            <div class="nav">
+                <a href="#" data-nav="work">Web Development</a>
+                <a href="#" data-nav="art">Art</a>
+            </div>
             <div class="workcontent">
-                <h1>My work</h1>
+                <h1>Web Development & Brand Design</h1>
                 <div class="cards">
                     <a href="patches.php">
                         <div class='card'>
@@ -53,10 +58,24 @@
             </div><!--.workcontent-->
         </div>
     </div><!--.work-->
+
+    <div id="art" class="page marginleft phonetop">
+        <h1>My work</h1>
+        <div class="content">
+            <div class="nav">
+                <a href="#" data-nav="work">Web Development</a>
+                <a href="#" data-nav="art">Art</a>
+            </div>
+            <div class="artcontent">
+                <h1>Art</h1>
+            </div>
+        </div>
+    </div><!--.art-->
 <?php
 // Navigation
 $workActive = "active";
 include("includes/nav.php");
 ?>   
+ <script type="module" src="js/main.js"></script>
 </body>
 </html>

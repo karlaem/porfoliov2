@@ -26,7 +26,34 @@
   color: black;
 }
 .cards h3 {
+  font-family: "geomanistregular";
+}
+.cards p {
+  margin-top: 10px;
+  font-size: 16px;
   font-family: "geomanistlight";
+}
+
+.navwork {
+  margin-top: 20px;
+  font-family: "geomanistregular";
+}
+.navwork a {
+  text-decoration: none;
+  color: #5E72EB;
+  margin-right: 20px;
+}
+.navwork a:hover {
+  color: #FEC195;
+}
+
+.content a {
+  text-decoration: none;
+  color: #5E72EB;
+  margin-right: 20px;
+}
+.content a:hover {
+  color: #FEC195;
 }
 
 /*# sourceMappingURL=work.css.map */
